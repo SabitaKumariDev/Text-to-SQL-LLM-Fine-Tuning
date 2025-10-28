@@ -130,23 +130,6 @@ Input:
 Generated SQL:
 
 SELECT * FROM customers WHERE city = 'New York';
-
-💡 Insights & Learnings
-
-LoRA fine-tuning enables large LLMs to perform complex SQL generation without full retraining.
-
-Semantic evaluation with GPT-4 offers a more accurate reflection of model understanding than string matching alone.
-
-Even lightweight models (like Phi-3-mini) can achieve strong syntactic performance with targeted fine-tuning.
-
-📚 References
-
-Hu et al., LoRA: Low-Rank Adaptation of Large Language Models, 2021
-
-Ram et al., RAGAS: Retrieval-Augmented Generation Assessment, 2023
-
-Tao Mao, SQLGlot: A Python SQL Parser and Transpiler, GitHub
-
 Gretel.ai Synthetic Text-to-SQL Dataset (Hugging Face)
 
 Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2019
